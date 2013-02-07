@@ -1,0 +1,42 @@
+---
+title: Home
+permalink: /
+---
+{% include head.html %}
+
+<div class="jumbotron">
+<h1>Hi, I'm Cameron.</h1>
+<p class="lead">I'm a software engineer and web developer. I make things like Android applications, websites, and <a href="/projects">lots more</a>. If you like what I do or want to work with me on something, <a href="#">get in touch</a>.</p>
+</div>
+
+<hr>
+
+<div class="row-fluid">
+	<div class="span9">
+		<h2>My Recent Projects</h2>
+		{% for post in site.categories.projects limit:2 %}
+			<h4 class="media-heading"><a href="{{ post.url }}">{{ post.title }}</a></h4>
+			<div class="media">
+				<img class="media-object pull-right thumbnail" src="/thumbs/{{ post.thumbnail }}">
+				<div class="media-body">
+					{{ post.excerpt | markdownify }}
+				</div>
+			</div>
+		{% endfor %}
+		<p><a href="/projects">More projects <i class="icon-double-angle-right"></i></a></p>
+	</div>
+
+	<div class="span3" id="find-me">
+		<h2>Find Me</h2>
+		<ul class="nav nav-tabs nav-stacked">
+			<li><a href="mailto:cameron@moon.net.au"><i class="icon-envelope"></i>Email</a></li>
+			<li><a href="http://facebook.com/cameron.moon"><i class="icon-facebook"></i>Facebook</a></li>
+			<li><a href="https://github.com/cmrn"><i class="icon-github"></i>GitHub</a></li>
+			<li><a href="https://plus.google.com/104968300566226890906/"><i class="icon-google-plus"></i>Google+</a></li>
+			<li><a href="http://linkedin.com/in/cameronmoon"><i class="icon-linkedin"></i>LinkedIn</a></li>
+			<li><a href="https://twitter.com/cmrn"><i class="icon-twitter"></i>Twitter</a></li>
+		</ul>
+	</div>
+</div>
+
+{% include foot.html %}
