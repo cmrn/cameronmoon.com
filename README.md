@@ -4,6 +4,6 @@ These are the [Jekyll](https://github.com/mojombo/jekyll) source files for [came
 
 The contents of the `/_posts` and `/thumbs` directories are the intellectual property of Cameron Moon.
 
-This repository contains copies of [Bootstrap](http://twitter.github.com/bootstrap/) and [FontAwesome](http://fortawesome.github.com/Font-Awesome/), and are used under their respective licenses.
+This repository contains resources from [Bootstrap](http://twitter.github.com/bootstrap/), [FontAwesome](http://fortawesome.github.com/Font-Awesome/), and [Subtle Patterns](http://subtlepatterns.com/). They are used under their respective licenses.
 
-All other contents of the repository are released under the [MIT License](http://opensource.org/licenses/MIT).
+All other contents of this repository is released under the [MIT License](http://opensource.org/licenses/MIT).
