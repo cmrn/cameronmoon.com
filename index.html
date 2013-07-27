@@ -11,8 +11,8 @@ permalink: /
 
 <hr>
 
-<div class="row-fluid">
-	<div class="span9">
+<div class="row">
+	<div class="col-sm-9">
 		<h2>My Recent Projects</h2>
 		{% for post in site.categories.projects limit:2 %}
 			<h4 class="media-heading"><a href="{{ post.url }}">{{ post.title }}</a></h4>
@@ -26,16 +26,16 @@ permalink: /
 		<p><a href="/projects">More projects <i class="icon-double-angle-right"></i></a></p>
 	</div>
 
-	<div class="span3" id="find-me">
+	<div class="col-sm-3" id="find-me">
 		<h2>Find Me</h2>
-		<ul class="nav nav-tabs nav-stacked">
-			<li><a href="mailto:cameron@moon.net.au"><i class="icon-envelope"></i>Email</a></li>
-			<li><a href="http://facebook.com/cameron.moon"><i class="icon-facebook"></i>Facebook</a></li>
-			<li><a href="https://github.com/cmrn"><i class="icon-github"></i>GitHub</a></li>
-			<li><a href="https://plus.google.com/104968300566226890906/"><i class="icon-google-plus"></i>Google+</a></li>
-			<li><a href="http://linkedin.com/in/cameronmoon"><i class="icon-linkedin"></i>LinkedIn</a></li>
-			<li><a href="https://twitter.com/cmrn"><i class="icon-twitter"></i>Twitter</a></li>
-		</ul>
+		<div class="list-group">
+			<a class="list-group-item" href="mailto:cameron@moon.net.au"><i class="icon-envelope icon-fixed-width"></i>Email</a>
+			<a class="list-group-item" href="http://facebook.com/cameron.moon"><i class="icon-facebook icon-fixed-width"></i>Facebook</a>
+			<a class="list-group-item" href="https://github.com/cmrn"><i class="icon-github icon-fixed-width"></i>GitHub</a>
+			<a class="list-group-item" href="https://plus.google.com/104968300566226890906/"><i class="icon-google-plus icon-fixed-width"></i>Google+</a>
+			<a class="list-group-item" href="http://linkedin.com/in/cameronmoon"><i class="icon-linkedin icon-fixed-width"></i>LinkedIn</a>
+			<a class="list-group-item" href="https://twitter.com/cmrn"><i class="icon-twitter icon-fixed-width"></i>Twitter</a>
+		</div>
 	</div>
 </div>
 
