@@ -2,7 +2,7 @@ body {
 	background: #f4f4f4 url(/img/debut-light.png) repeat 0 0;
 }
 
-body, h1, h2, h3, h4, h5, h6 {
+body, h4, h5, h6 {
 	font-family: 'Open Sans', "Helvetica Neue", Helvetica, sans-serif;
 }
 
@@ -26,8 +26,30 @@ h4 a:hover {
 	border-bottom: 1px solid;
 }
 
+.masthead {
+	height: 40px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
 .masthead h3 {
 	line-height: 40px;
+	margin-top: 0;
+	float: left;
+}
+
+.masthead .nav {
+	float: right;
+}
+
+@media (max-width: 481px) {
+	.masthead .nav {
+		float: left;
+	}
+
+	.masthead {
+		height: 80px;
+	}
 }
 
 /* Custom container */
