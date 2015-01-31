@@ -1,6 +1,6 @@
 Jekyll source for cameronmoon.com
 =====================================
-These are the [Jekyll](https://github.com/mojombo/jekyll) source files for [cameron.moon.net.au](http://cameronmoon.com). Every commit to this repository updates the live website - [see here for more details](http://cameronmoon.com/projects/deploying-jekyll-using-github).
+These are the [Jekyll](https://github.com/mojombo/jekyll) source files for [cameronmoon.com](http://cameronmoon.com). Every commit to this repository updates the live website - [see here for more details](http://cameronmoon.com/projects/deploying-jekyll-using-github).
 
 License
 -------
