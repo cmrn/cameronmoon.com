@@ -1,2 +1,3 @@
 highlighter: rouge
+include: ['.well-known']
 permalink:   /:categories/:title
